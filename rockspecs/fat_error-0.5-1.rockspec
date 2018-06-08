@@ -1,17 +1,9 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "fat_error"
-version = "0.4-1"
--- LuaDist source
+version = "0.5-1"
 source = {
-  tag = "0.4-1",
-  url = "git://github.com/LuaDist-testing/fat_error.git"
+   url = "https://github.com/henry4k/fat_error/archive/v0.5.tar.gz",
+   dir = "fat_error-0.5"
 }
--- Original source
--- source = {
---    url = "https://github.com/henry4k/fat_error/archive/v0.4.tar.gz",
---    dir = "fat_error-0.4"
--- }
 description = {
    summary = "Replace error messages with error objects that store metadata.",
    detailed = [[
@@ -24,7 +16,7 @@ a database for later processing/analysis.]],
    license = "MIT"
 }
 dependencies = {
-   "lua >= 5.1, < 5.4"
+   "lua >= 5.2, < 5.4"
 }
 build = {
    type = "builtin",
