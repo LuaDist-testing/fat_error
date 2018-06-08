@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "fat_error"
-version = "0.2-1"
+version = "0.3-1"
 -- LuaDist source
 source = {
-  tag = "0.2-1",
+  tag = "0.3-1",
   url = "git://github.com/LuaDist-testing/fat_error.git"
 }
 -- Original source
 -- source = {
---    url = "https://github.com/henry4k/fat_error/archive/v0.2.tar.gz",
---    dir = "fat_error-0.2"
+--    url = "https://github.com/henry4k/fat_error/archive/v0.3.tar.gz",
+--    dir = "fat_error-0.3"
 -- }
 description = {
    summary = "Replace error messages with error objects that store metadata.",
